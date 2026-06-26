@@ -4,8 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <button><img src="images/three_lines.png" height="20" alt=""></button>
+        <!-- three lines option on the top left -->
+        <img src="images/logo.png" alt="" height="40">
+        <!-- yt logo in top night -->
+        <input type="text" placeholder="Search">
+        <!-- searchbar in middle-->
+        <button name="Microphone"><img src="images/microphone.png" alt="Microphone" height="10"></button>
+        <!-- button for audio input from user next to searchbar-->
+         <button><img src="images/google_nine_dots.png" height="20" alt="Google nine dots for apps"></button>
+         <button><img src="images/yt_bell.png" alt="Notification bell" height="20"></button>
+         <!-- google nine dots for apps and notification bell icon displayed on the top right corner -->
+
+    </header>
+    <header>
+        <!-- buttons for different genre of videos as displayed on youtube top recommendation -->
+        <button>Trending</button>
+        <button>Movies</button>
+        <button>Gaming</button>
+        <button>Books</button>
+        <button>Anime</button>
+        <button>Comedy</button>
+    </header>
+
+    <aside>
+        <!-- Aside option list of other options on the left side of the page as seen on yt home page -->
+         <ul>
+            <li>Home</li>
+            <li>Explore</li>
+            <li>Subscritions</li>
+            <li>Originals</li>
+            <li>YouTube Music</li>
+            <li>Library</li>
+            <li>History</li>
+            <li>Your Videos</li>
+            <li>Watch later</li>
+            <li>Your Playlists</li>
+         </ul>
+    </aside>
+
+    <main>
+        <section>
+            <!-- creating a table to display 6 sample videos as they appear on the youtube home page -->
+             <!-- they have the same functionality and the layout as displayed on the youtube screen like the creator name , video title , thumbnail , views and the date -->
+            <table>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <a href="">
+                            <img src="images/thumbnail1.jpg" height="250" alt="Video 1"><br>
+                            <h3>Video 1</h3>
+                            <p>Creator 1</p>
+                            <p>100 views : Date 1</p>
+                            </a>
+                        </td>
+                        <td> 
+                            <a href="">
+                            <img src="images/thumbnail2.jpg" height="250" alt="Video 1"><br>
+                            <h3>Video 2</h3>
+                            <p>Creator 2</p>
+                            <p>100 views : Date 2</p>
+                            </a>
+                        </td>
+                        <td> 
+                            <a href="">
+                            <img src="images/thumbnail3.jpg" height="250" alt="Video 1"><br>
+                            <h3>Video 3</h3>
+                            <p>Creator 3</p>
+                            <p>100 views : Date 3</p>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> 
+                            <a href="">
+                            <img src="images/thumbnail4.jpg" height="250" alt="Video 1"><br>
+                            <h3>Video 4</h3>
+                            <p>Creator 4</p>
+                            <p>100 views : Date 4</p>
+                            </a>
+                        </td>
+                        <td> 
+                            <a href="">
+                            <img src="images/thumbnail5.jpg" height="250" alt="Video 1"><br>
+                            <h3>Video 5</h3>
+                            <p>Creator 5</p>
+                            <p>100 views : Date 5</p>
+                            </a>
+                        </td>
+                        <td> 
+                            <a href="">
+                            <img src="images/thumbnail6.jpg" height="250" alt="Video 1"><br>
+                            <h3>Video 6</h3>
+                            <p>Creator 6</p>
+                            <p>100 views : Date 6</p>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- the table will appear to the right of the aside content above as it appear on the youtube home page -->
+             <footer>
+                Copyright | All Rights Reserved
+                <!-- copyright message in the bottom centre -->
+             </footer>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
